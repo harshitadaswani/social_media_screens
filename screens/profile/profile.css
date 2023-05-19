@@ -43,3 +43,7 @@
 .width-10 {
   width: 10rem;
 }
+
+.primary-border {
+  border: 1px solid var(--primary-color);
+}
