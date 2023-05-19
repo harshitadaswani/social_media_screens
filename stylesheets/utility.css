@@ -362,17 +362,6 @@ h6 {
   cursor: pointer;
 }
 
-/* .btn,
-.outline {
-  padding: var(--s-size);
-  margin: var(--xs-size);
-  font-size: var(--s-size);
-}
-
-.outline {
-  background-color: var(--lynx-white-color);
-} */
-
 /* color utility classes */
 .primary-color {
   color: var(--primary-color);
@@ -461,7 +450,6 @@ h6 {
 
 .flex-space-between {
   justify-content: space-between;
-  align-items: center;
 }
 
 .nowrap {
@@ -475,6 +463,14 @@ h6 {
 .flex-center {
   align-items: center;
   justify-content: center;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.flex-space-evenly {
+  justify-content: space-evenly;
 }
 
 /* responsive image */
