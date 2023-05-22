@@ -53,6 +53,15 @@ h6 {
   line-height: var(--s-size);
 }
 
+/* for height and width */
+.h-full{
+  min-height: 100vh;
+}
+
+.w-full{
+  width: 100%;
+}
+
 /* for margin */
 .m-xxl {
   margin: var(--xxl-size);
